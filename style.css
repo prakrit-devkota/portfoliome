@@ -1,0 +1,180 @@
+body{
+    background-color: grey;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+.first h1{
+    color:black;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.links{
+    display: flex;
+    gap:20px;
+    padding-right: 15px;
+    margin-left: 15px;
+    margin-right: 8%;
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+a:hover{
+    font-size: 1.1rem;
+    font-weight: 2rem;
+}
+.flex{
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+.flex img{
+    height: 200px;
+    border: radius 0;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+
+
+
+@media (max-width:500px){
+    h1{
+        font-size: 18pt;
+        text-align: center;
+    }
+}
+button{
+    height: 20px;
+    width: 50px;
+}
+.main{
+    background-color: orange;
+    height: 580px;
+    margin-top:50px;
+    width: 100%;
+
+}    
+.main h1{
+    text-align: center;
+}
+.firstsec,.secondsec{
+    background-color: white;
+    height: 240px;
+    align-items: center;
+    opacity: 80%;
+    margin:5%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width:90%;
+
+}
+.main img{
+    height: 70%;
+    width: 80%;
+    border-radius: 10%;
+}
+.main a{
+    background-color:orange;
+    color: #4169e1;
+    border-radius: 5px;
+    
+    padding: 5px;
+}
+.main a:hover{
+    font-size: 1.1rem;
+}
+@media (min-width:700px) {
+    .flex{display: flex;
+   flex-direction: column;
+   align-items: center;}
+   .flex h1{
+       font-size: 4rem;
+       text-align: center;
+   
+   }
+   .flex img{
+      width: 400px;
+      height: 400px;
+      border-radius: 100%;
+   }
+   .first h1{
+       font-size: 2.5rem;
+   }
+   .first a{
+       font-size: 1.5rem;
+   }
+   .first a:hover{
+       font-size: 1.6rem;
+   }
+   .container{
+       display: flex;
+       justify-content: center;
+       gap:50px
+   }
+   .firstsec,.secondsec{
+       width: 40%;
+       height: 350px;
+       margin-top: 50px;
+   }
+}
+.main h1{
+    color:#4169e1
+}
+.random{
+    color: skyblue;
+}
+#blue{
+    color:skyblue;
+    font-size: 10pt;
+}
+#element{
+    color:greenyellow;
+    
+
+}
+.footer{
+    background-color:#4169e1 ;
+    height: 200px;
+    color: white;
+    padding: 20px;
+}
+.footer img{
+    height: 25px;
+    border-radius: 5px;
+}
+.container2{
+    margin-top: 10px;
+}
+h6{
+    margin: 10px;
+}
+footer{
+    margin:20px
+}
+.p{
+    font-size: 12pt;
+    position: relative;
+    
+    display: flex;
+    justify-content: flex-end;
+}
+.container2{
+    display: flex;
+    gap:20px
+}
+
+
+
+
